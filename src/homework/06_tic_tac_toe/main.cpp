@@ -30,7 +30,8 @@ int main()
 
 		}
 
-		cout<<"Play again? \n Enter Y to play again.";
+		cout<<"\nThe winner is "<<game.get_winner()<<"!!!\n\n";
+		cout<<"Play again? \nEnter Y to play again.";
 		cin>>user_choice;
 
 	} while (user_choice == 'Y' || user_choice == 'y');
